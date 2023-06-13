@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgb(245, 245, 255) 16.62%, rgb(223, 255, 255) 85.61%);
+}
+
+.bunitu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.bunitu-menu-botão:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.bunitu-menu-botão {
+    background-color: white;
+    width: 220px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.bunitu-imaje {
+    height: 72px;
+}
+
+.bunitu-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.bunitu-menu2:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.bunitu-menu-a {
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bunita {
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bunita-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.bunita-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.bunite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+    border-top: 0.4 solid black;
+}
+
